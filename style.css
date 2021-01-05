@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+.half-width{
+    padding-top: 20px;
+    padding-left: 2%;
+    text-align: justify;
+
+}
+
+.greetings{
+    color: midnightblue;
+}
+.name-highlight{
+    color: tomato;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,orange,red);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+.half-width img{
+    width: 80%;
+    display: block;
+    
+}
+.introduction{
+    height: 800px;
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    
+}
+.github-link{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg,cyan,blue);
+    padding: 10px 20px;
+}
+.project-area{
+    display: inline-block;
+    height: 500px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+#tomato-highlight{
+    color: tomato;
+}
+.project-area h2{
+    text-align: center;
+}
+.single-project {
+width: 30%;
+display: block;
+}
