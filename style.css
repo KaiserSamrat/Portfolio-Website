@@ -8,6 +8,14 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: gray;
+}
+.navbar h3{
+    display: inline;
+    color: green;
+    position: center;
+}
 
 .half-width{
     padding-top: 20px;
@@ -59,10 +67,104 @@ h2{
 #tomato-highlight{
     color: tomato;
 }
+.project-area{
+    margin-top: 30px;
+}
+.center{
+    margin-left: 10%;
+}
+.single-project{
+    float: left;
+    padding: 10px 10px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
 .project-area h2{
     text-align: center;
 }
-.single-project {
-width: 30%;
+.single-project img {
+width: 300px;
 display: block;
+padding: auto;
+
+}
+.work-inquiry{
+    background-image: url(images/Group_33094_1.png);
+    background-size: cover;
+    height: 225px;
+    width: 900px;
+    background-position: center;
+    position: relative;
+    margin: 50px 200px;
+
+}
+.work-information{
+    position: absolute;
+    bottom: 8px;
+    left:16px;
+    padding: 50px 50px;
+    color: white;
+}
+.work-link{
+    display: inline-block;
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    padding: 100px 50px;
+    
+}
+.color-link{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange,red);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.three-width
+{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 1%;
+}
+
+.single-background{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 100%;
+}
+#background-header{
+    text-align: center;
+    background-color: mediumpurple;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#school-life{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,yellow,red);
+    border-image-slice: 1;
+    background-color: lightblue;
+}
+#college-life{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,red);
+    border-image-slice: 1;
+    background-color: lightblue;
+}
+#university-life{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,red);
+    border-image-slice: 1;
+    background-color: lightblue;
+}
+.Orange-highlight{
+    color: tomato;
+}
+.education-highlight{
+    color: maroon;
 }
