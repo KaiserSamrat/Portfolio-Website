@@ -11,10 +11,15 @@ h2{
 p{
     color: gray;
 }
+.navbar{
+    margin-left: 70%;
+}
 .navbar h3{
     display: inline;
     color: green;
     position: center;
+    padding-left: 2%;
+    text-align: right;
 }
 
 .half-width{
@@ -43,6 +48,7 @@ p{
 .half-width img{
     width: 80%;
     display: block;
+    padding-top: 50px;
     
 }
 .introduction{
@@ -60,25 +66,27 @@ p{
 }
 .project-area{
     display: inline-block;
-    height: 500px;
+    height: 600px;
     background-color: whitesmoke;
     width: 100%;
+    margin-top: 50px;
 }
 #tomato-highlight{
     color: tomato;
 }
-.project-area{
-    margin-top: 30px;
-}
+
 .center{
     margin-left: 10%;
 }
 .single-project{
     float: left;
-    padding: 10px 10px;
+    padding: 20px 20px;
     margin-left: 20px;
     background-color: white;
     border-radius: 10px;
+}
+.single-project p{
+    color: seagreen;
 }
 .project-area h2{
     text-align: center;
@@ -158,7 +166,7 @@ padding: auto;
 }
 #university-life{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg,green,red);
+    border-image: linear-gradient(180deg,cyan,blue);
     border-image-slice: 1;
     background-color: lightblue;
 }
@@ -167,4 +175,29 @@ padding: auto;
 }
 .education-highlight{
     color: maroon;
+}
+.gmail-text{
+    text-align: center;
+}
+#message{
+    color: gray;
+    
+}
+#gmail-id{
+    color:red;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+.footer-image{
+    text-align: center;
+    
+}
+.footer-image img{
+    height: 30px;
+    padding-left: 2%;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
 }
